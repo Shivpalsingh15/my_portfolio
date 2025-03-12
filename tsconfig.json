@@ -18,9 +18,11 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/app*"],
+      "@/lib/*": ["./src/app/lib/*"],
+      "@/Components/*": ["./src/app/Components/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/lib/utlis.js", "src/Components/ui/evervault-card.jsx", "src/Components/evervault-card-demo.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/lib/utlis.js", "src/Components/ui/evervault-card.jsx", "src/Components/evervault-card-demo.jsx", "src/Components/ui/floating-dock.jsx", "src/Components/ui/input.jsx", "tailwind.config.js"],
   "exclude": ["node_modules"]
 }
